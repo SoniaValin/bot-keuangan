@@ -11,10 +11,10 @@ import os
 TOKEN = os.getenv("BOT_TOKEN")
 
 # ===== FOLDER =====
-DATA_FOLDER = r"D:\ekskul kuliah\bot"
+DATA_FOLDER = "data"
 os.makedirs(DATA_FOLDER, exist_ok=True)
 
-current_file = os.path.join(DATA_FOLDER, "Keuangan.xlsx")
+current_file = os.path.join(DATA_FOLDER, "keuangan.xlsx")
 
 # ===== INIT =====
 def init_file(path):
